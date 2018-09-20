@@ -1,0 +1,1024 @@
+DEBUG 2018-09-20 17:20:14,125 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-09-20 17:20:14,251 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-09-20 17:20:14,272 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Hasin.Web.Host.Startup.HasinWebHostModule, Hasin.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:20:14,277 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Hasin.HasinWebCoreModule, Hasin.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:20:14,278 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Hasin.HasinApplicationModule, Hasin.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:20:14,278 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Hasin.HasinCoreModule, Hasin.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:20:14,279 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:20:14,279 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:20:14,280 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:20:14,281 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:20:14,281 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Hasin.EntityFrameworkCore.HasinEntityFrameworkModule, Hasin.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:20:14,281 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:20:14,282 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:20:14,282 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:20:14,282 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:20:14,283 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:20:14,283 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:20:14,287 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-09-20 17:20:14,362 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-20 17:20:14,362 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-20 17:20:14,362 [1    ] o.Configuration.LanguageManagementConfig - Converted Hasin (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-20 17:20:14,362 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-20 17:20:14,734 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Hasin.EntityFrameworkCore.HasinDbContext, Hasin.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:20:15,598 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-09-20 17:20:21,149 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-09-20 17:20:21,171 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-09-20 17:20:21,188 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Hasin.Web.Host.Startup.HasinWebHostModule, Hasin.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:20:21,191 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Hasin.HasinWebCoreModule, Hasin.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:20:21,191 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Hasin.HasinApplicationModule, Hasin.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:20:21,191 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Hasin.HasinCoreModule, Hasin.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:20:21,192 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:20:21,192 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:20:21,192 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:20:21,193 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:20:21,193 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Hasin.EntityFrameworkCore.HasinEntityFrameworkModule, Hasin.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:20:21,193 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:20:21,193 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:20:21,194 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:20:21,194 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:20:21,194 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:20:21,194 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:20:21,199 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-09-20 17:20:21,266 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-20 17:20:21,266 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-20 17:20:21,266 [1    ] o.Configuration.LanguageManagementConfig - Converted Hasin (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-20 17:20:21,266 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-20 17:20:21,540 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Hasin.EntityFrameworkCore.HasinDbContext, Hasin.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:20:21,902 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-09-20 17:20:21,956 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-09-20 17:20:22,002 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-09-20 17:20:22,022 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Hasin
+DEBUG 2018-09-20 17:20:22,055 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-09-20 17:20:22,090 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-09-20 17:20:22,133 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2018-09-20 17:20:22,133 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-09-20 17:20:22,139 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.Users.Dto.CreateUserDto
+DEBUG 2018-09-20 17:20:22,140 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.Users.Dto.UserDto
+DEBUG 2018-09-20 17:20:22,140 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-09-20 17:20:22,140 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-09-20 17:20:22,141 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.Roles.Dto.CreateRoleDto
+DEBUG 2018-09-20 17:20:22,141 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.Roles.Dto.PermissionDto
+DEBUG 2018-09-20 17:20:22,141 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.Roles.Dto.RoleDto
+DEBUG 2018-09-20 17:20:22,141 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-09-20 17:20:22,141 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.MultiTenancy.Dto.TenantDto
+INFO  2018-09-20 17:20:25,810 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+DEBUG 2018-09-20 17:23:11,182 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-09-20 17:23:11,264 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-09-20 17:23:11,291 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Hasin.Web.Host.Startup.HasinWebHostModule, Hasin.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:23:11,295 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Hasin.HasinWebCoreModule, Hasin.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:23:11,295 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Hasin.HasinApplicationModule, Hasin.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:23:11,295 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Hasin.HasinCoreModule, Hasin.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:23:11,296 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:23:11,296 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:23:11,296 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:23:11,297 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:23:11,297 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Hasin.EntityFrameworkCore.HasinEntityFrameworkModule, Hasin.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:23:11,297 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:23:11,297 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:23:11,298 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:23:11,298 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:23:11,298 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:23:11,298 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:23:11,303 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-09-20 17:23:11,376 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-20 17:23:11,376 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-20 17:23:11,376 [1    ] o.Configuration.LanguageManagementConfig - Converted Hasin (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-20 17:23:11,376 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-20 17:23:11,807 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Hasin.EntityFrameworkCore.HasinDbContext, Hasin.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:23:12,574 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-09-20 17:23:12,629 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-09-20 17:23:12,679 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-09-20 17:23:12,700 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Hasin
+DEBUG 2018-09-20 17:23:12,733 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-09-20 17:23:12,888 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-09-20 17:23:12,934 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2018-09-20 17:23:12,934 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-09-20 17:23:12,941 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.Users.Dto.CreateUserDto
+DEBUG 2018-09-20 17:23:12,942 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.Users.Dto.UserDto
+DEBUG 2018-09-20 17:23:12,942 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-09-20 17:23:12,942 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-09-20 17:23:12,942 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.Roles.Dto.CreateRoleDto
+DEBUG 2018-09-20 17:23:12,942 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.Roles.Dto.PermissionDto
+DEBUG 2018-09-20 17:23:12,942 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.Roles.Dto.RoleDto
+DEBUG 2018-09-20 17:23:12,943 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-09-20 17:23:12,943 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.MultiTenancy.Dto.TenantDto
+INFO  2018-09-20 17:23:19,104 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:21021/  0
+INFO  2018-09-20 17:23:19,104 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2018-09-20 17:23:19,196 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 96.724ms 200 
+INFO  2018-09-20 17:23:22,205 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action Hasin.Web.Host.Controllers.HomeController.Index (Hasin.Web.Host)
+INFO  2018-09-20 17:23:23,263 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Hasin.Web.Host.Controllers.HomeController.Index (Hasin.Web.Host) - Validation state: Valid
+INFO  2018-09-20 17:23:23,269 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Hasin.Web.Host.Controllers.HomeController.Index (Hasin.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 2.2959ms.
+INFO  2018-09-20 17:23:23,426 [6    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2018-09-20 17:23:23,444 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Hasin.Web.Host.Controllers.HomeController.Index (Hasin.Web.Host) in 1232.4081ms
+INFO  2018-09-20 17:23:23,469 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4371.2496ms 302 
+INFO  2018-09-20 17:23:23,474 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2018-09-20 17:23:23,516 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 44.2616ms 200 text/html
+INFO  2018-09-20 17:23:23,557 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2018-09-20 17:23:23,561 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2018-09-20 17:23:23,565 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2018-09-20 17:23:23,565 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2018-09-20 17:23:23,571 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2018-09-20 17:23:23,591 [7    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.css was not modified
+INFO  2018-09-20 17:23:23,593 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-standalone-preset.js was not modified
+INFO  2018-09-20 17:23:23,594 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-bundle.js was not modified
+INFO  2018-09-20 17:23:23,598 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 50.1259ms 304 application/javascript
+INFO  2018-09-20 17:23:23,605 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 36.1347ms 304 text/css
+INFO  2018-09-20 17:23:23,608 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 49.4852ms 304 application/javascript
+INFO  2018-09-20 17:23:23,642 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'C:\Users\Administrator\Desktop\4.0.1\aspnet-core\src\Hasin.Web.Host\wwwroot\swagger\ui\abp.swagger.js'
+INFO  2018-09-20 17:23:23,653 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'C:\Users\Administrator\Desktop\4.0.1\aspnet-core\src\Hasin.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2018-09-20 17:23:23,653 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 73.7361ms 200 application/javascript
+INFO  2018-09-20 17:23:23,655 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 106.6135ms 200 application/javascript
+INFO  2018-09-20 17:23:23,774 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2018-09-20 17:23:24,098 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 324.9004ms 200 application/json;charset=utf-8
+INFO  2018-09-20 17:23:46,788 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json 50
+INFO  2018-09-20 17:23:46,795 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-09-20 17:23:46,796 [6    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-09-20 17:23:46,846 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing action Hasin.Controllers.TokenAuthController.Authenticate (Hasin.Web.Core)
+INFO  2018-09-20 17:23:46,847 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-09-20 17:23:46,848 [6    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-09-20 17:23:47,330 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Hasin.Controllers.TokenAuthController.Authenticate (Hasin.Web.Core) with arguments (Hasin.Models.TokenAuth.AuthenticateModel) - Validation state: Valid
+INFO  2018-09-20 17:23:48,399 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Hasin.Controllers.TokenAuthController.Authenticate (Hasin.Web.Core), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1067.0567ms.
+INFO  2018-09-20 17:23:48,577 [7    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-09-20 17:23:48,597 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Hasin.Controllers.TokenAuthController.Authenticate (Hasin.Web.Core) in 1749.5595ms
+INFO  2018-09-20 17:23:48,603 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1811.2178ms 200 application/json; charset=utf-8
+DEBUG 2018-09-20 17:31:01,043 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-09-20 17:31:01,111 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-09-20 17:31:01,128 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Hasin.Web.Host.Startup.HasinWebHostModule, Hasin.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:31:01,131 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Hasin.HasinWebCoreModule, Hasin.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:31:01,132 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Hasin.HasinApplicationModule, Hasin.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:31:01,132 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Hasin.HasinCoreModule, Hasin.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:31:01,132 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:31:01,132 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:31:01,133 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:31:01,133 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:31:01,133 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Hasin.EntityFrameworkCore.HasinEntityFrameworkModule, Hasin.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:31:01,134 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:31:01,134 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:31:01,134 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:31:01,134 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:31:01,135 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:31:01,135 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:31:01,138 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-09-20 17:31:01,219 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-20 17:31:01,219 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-20 17:31:01,219 [1    ] o.Configuration.LanguageManagementConfig - Converted Hasin (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-20 17:31:01,219 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-20 17:31:01,572 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Hasin.EntityFrameworkCore.HasinDbContext, Hasin.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:31:02,347 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-09-20 17:31:02,401 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-09-20 17:31:02,450 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-09-20 17:31:02,472 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Hasin
+DEBUG 2018-09-20 17:31:02,508 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-09-20 17:31:02,656 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-09-20 17:31:02,705 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2018-09-20 17:31:02,705 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-09-20 17:31:02,713 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.Users.Dto.CreateUserDto
+DEBUG 2018-09-20 17:31:02,714 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.Users.Dto.UserDto
+DEBUG 2018-09-20 17:31:02,715 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-09-20 17:31:02,715 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-09-20 17:31:02,716 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.Roles.Dto.CreateRoleDto
+DEBUG 2018-09-20 17:31:02,716 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.Roles.Dto.PermissionDto
+DEBUG 2018-09-20 17:31:02,716 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.Roles.Dto.RoleDto
+DEBUG 2018-09-20 17:31:02,717 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-09-20 17:31:02,717 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.MultiTenancy.Dto.TenantDto
+INFO  2018-09-20 17:31:08,883 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:21021/  0
+INFO  2018-09-20 17:31:08,883 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2018-09-20 17:31:08,964 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 88.1821ms 200 
+INFO  2018-09-20 17:31:11,875 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action Hasin.Web.Host.Controllers.HomeController.Index (Hasin.Web.Host)
+INFO  2018-09-20 17:31:12,888 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Hasin.Web.Host.Controllers.HomeController.Index (Hasin.Web.Host) - Validation state: Valid
+INFO  2018-09-20 17:31:12,894 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Hasin.Web.Host.Controllers.HomeController.Index (Hasin.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 2.6035ms.
+INFO  2018-09-20 17:31:13,020 [10   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2018-09-20 17:31:13,034 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Hasin.Web.Host.Controllers.HomeController.Index (Hasin.Web.Host) in 1154.144ms
+INFO  2018-09-20 17:31:13,055 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4182.967ms 302 
+INFO  2018-09-20 17:31:13,057 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2018-09-20 17:31:13,092 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 37.4164ms 200 text/html
+INFO  2018-09-20 17:31:13,129 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2018-09-20 17:31:13,136 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2018-09-20 17:31:13,137 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2018-09-20 17:31:13,158 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-bundle.js was not modified
+INFO  2018-09-20 17:31:13,159 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.css was not modified
+INFO  2018-09-20 17:31:13,160 [13   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-standalone-preset.js was not modified
+INFO  2018-09-20 17:31:13,168 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 33.8838ms 304 application/javascript
+INFO  2018-09-20 17:31:13,172 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 49.1307ms 304 application/javascript
+INFO  2018-09-20 17:31:13,173 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 43.5497ms 304 text/css
+INFO  2018-09-20 17:31:13,333 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2018-09-20 17:31:13,456 [7    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-09-20 17:31:13,868 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 536.941ms 200 application/json;charset=utf-8
+INFO  2018-09-20 17:31:29,548 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Category/CreateOrUpdate application/json-patch+json 309
+INFO  2018-09-20 17:31:29,554 [7    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-09-20 17:31:29,558 [7    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-09-20 17:31:29,563 [7    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-09-20 17:31:29,626 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "CreateOrUpdate", controller = "Category"}. Executing action Hasin.Categorys.CategoryAppService.CreateOrUpdate (Hasin.Application)
+INFO  2018-09-20 17:31:29,627 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-09-20 17:31:29,628 [6    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-09-20 17:31:30,172 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Hasin.Categorys.CategoryAppService.CreateOrUpdate (Hasin.Application) with arguments (Hasin.Categorys.Dtos.CreateOrUpdateCategoryInput) - Validation state: Valid
+ERROR 2018-09-20 17:31:30,540 [13   ] Mvc.ExceptionHandling.AbpExceptionFilter - There is no such an entity. Entity type: Hasin.Categorys.Category, id: 0
+Abp.Domain.Entities.EntityNotFoundException: There is no such an entity. Entity type: Hasin.Categorys.Category, id: 0
+   at Abp.Domain.Repositories.AbpRepositoryBase`2.GetAsync(TPrimaryKey id) in D:\Github\aspnetboilerplate\src\Abp\Domain\Repositories\AbpRepositoryBase.cs:line 86
+   at Abp.Threading.InternalAsyncHelper.AwaitTaskWithPostActionAndFinallyAndGetResult[T](Task`1 actualReturnValue, Func`1 postAction, Action`1 finalAction)
+   at Hasin.Categorys.CategoryAppService.Update(CategoryEditDto input) in C:\Users\Administrator\Desktop\4.0.1\aspnet-core\src\Hasin.Application\Categorys\CategoryApplicationService.cs:line 163
+   at Abp.Threading.InternalAsyncHelper.AwaitTaskWithPostActionAndFinally(Task actualReturnValue, Func`1 postAction, Action`1 finalAction) in D:\Github\aspnetboilerplate\src\Abp\Threading\InternalAsyncHelper.cs:line 35
+   at Hasin.Categorys.CategoryAppService.CreateOrUpdate(CreateOrUpdateCategoryInput input) in C:\Users\Administrator\Desktop\4.0.1\aspnet-core\src\Hasin.Application\Categorys\CategoryApplicationService.cs:line 130
+   at lambda_method(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+INFO  2018-09-20 17:31:30,917 [13   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-09-20 17:31:30,938 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Hasin.Categorys.CategoryAppService.CreateOrUpdate (Hasin.Application) in 1310.5412ms
+INFO  2018-09-20 17:31:30,941 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1393.5567ms 404 application/json; charset=utf-8
+INFO  2018-09-20 17:31:48,506 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Category/CreateOrUpdate application/json-patch+json 296
+INFO  2018-09-20 17:31:48,507 [11   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-09-20 17:31:48,509 [11   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-09-20 17:31:48,511 [11   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-09-20 17:31:48,522 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "CreateOrUpdate", controller = "Category"}. Executing action Hasin.Categorys.CategoryAppService.CreateOrUpdate (Hasin.Application)
+INFO  2018-09-20 17:31:48,524 [11   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-09-20 17:31:48,525 [11   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-09-20 17:31:48,551 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Hasin.Categorys.CategoryAppService.CreateOrUpdate (Hasin.Application) with arguments (Hasin.Categorys.Dtos.CreateOrUpdateCategoryInput) - Validation state: Valid
+INFO  2018-09-20 17:31:48,584 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Hasin.Categorys.CategoryAppService.CreateOrUpdate (Hasin.Application), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 31.6053ms.
+INFO  2018-09-20 17:31:48,654 [13   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-09-20 17:31:48,656 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Hasin.Categorys.CategoryAppService.CreateOrUpdate (Hasin.Application) in 132.0323ms
+INFO  2018-09-20 17:31:48,658 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 151.0351ms 200 application/json; charset=utf-8
+INFO  2018-09-20 17:33:10,000 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Category/CreateOrUpdate application/json-patch+json 47
+INFO  2018-09-20 17:33:10,001 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-09-20 17:33:10,003 [6    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-09-20 17:33:10,005 [6    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-09-20 17:33:10,010 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "CreateOrUpdate", controller = "Category"}. Executing action Hasin.Categorys.CategoryAppService.CreateOrUpdate (Hasin.Application)
+INFO  2018-09-20 17:33:10,012 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-09-20 17:33:10,016 [6    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-09-20 17:33:10,039 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Hasin.Categorys.CategoryAppService.CreateOrUpdate (Hasin.Application) with arguments (Hasin.Categorys.Dtos.CreateOrUpdateCategoryInput) - Validation state: Valid
+INFO  2018-09-20 17:33:10,044 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Hasin.Categorys.CategoryAppService.CreateOrUpdate (Hasin.Application), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 2.3422ms.
+INFO  2018-09-20 17:33:10,105 [20   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-09-20 17:33:10,107 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Hasin.Categorys.CategoryAppService.CreateOrUpdate (Hasin.Application) in 94.7562ms
+INFO  2018-09-20 17:33:10,111 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 109.2046ms 200 application/json; charset=utf-8
+INFO  2018-09-20 17:34:14,958 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Category/CreateOrUpdate application/json-patch+json 64
+INFO  2018-09-20 17:34:14,981 [25   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-09-20 17:34:14,983 [25   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-09-20 17:34:14,985 [25   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-09-20 17:34:14,992 [25   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "CreateOrUpdate", controller = "Category"}. Executing action Hasin.Categorys.CategoryAppService.CreateOrUpdate (Hasin.Application)
+INFO  2018-09-20 17:34:14,994 [25   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-09-20 17:34:14,995 [25   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+WARN  2018-09-20 17:34:15,040 [18   ] Mvc.ExceptionHandling.AbpExceptionFilter - Method arguments are not valid! See ValidationErrors for details.
+Abp.Runtime.Validation.AbpValidationException: Method arguments are not valid! See ValidationErrors for details.
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.ThrowValidationError() in D:\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\MethodInvocationValidator.cs:line 118
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.Validate() in D:\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\MethodInvocationValidator.cs:line 89
+   at Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Validation\AbpValidationActionFilter.cs:line 35
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+WARN  2018-09-20 17:34:15,041 [18   ] Mvc.ExceptionHandling.AbpExceptionFilter - There are 2 validation errors:
+WARN  2018-09-20 17:34:15,041 [18   ] Mvc.ExceptionHandling.AbpExceptionFilter -  (category.1)
+WARN  2018-09-20 17:34:15,041 [18   ] Mvc.ExceptionHandling.AbpExceptionFilter -  (category.1)
+INFO  2018-09-20 17:34:15,046 [18   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-09-20 17:34:15,050 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Hasin.Categorys.CategoryAppService.CreateOrUpdate (Hasin.Application) in 55.9579ms
+INFO  2018-09-20 17:34:15,054 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 95.5455ms 400 application/json; charset=utf-8
+INFO  2018-09-20 17:34:35,409 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Category/CreateOrUpdate application/json-patch+json 55
+INFO  2018-09-20 17:34:35,411 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-09-20 17:34:35,412 [6    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-09-20 17:34:35,414 [6    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-09-20 17:34:35,419 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "CreateOrUpdate", controller = "Category"}. Executing action Hasin.Categorys.CategoryAppService.CreateOrUpdate (Hasin.Application)
+INFO  2018-09-20 17:34:35,421 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-09-20 17:34:35,424 [6    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+WARN  2018-09-20 17:34:35,485 [18   ] Mvc.ExceptionHandling.AbpExceptionFilter - Method arguments are not valid! See ValidationErrors for details.
+Abp.Runtime.Validation.AbpValidationException: Method arguments are not valid! See ValidationErrors for details.
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.ThrowValidationError() in D:\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\MethodInvocationValidator.cs:line 118
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.Validate() in D:\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\MethodInvocationValidator.cs:line 89
+   at Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Validation\AbpValidationActionFilter.cs:line 35
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+WARN  2018-09-20 17:34:35,486 [18   ] Mvc.ExceptionHandling.AbpExceptionFilter - There are 2 validation errors:
+WARN  2018-09-20 17:34:35,486 [18   ] Mvc.ExceptionHandling.AbpExceptionFilter -  (category.id)
+WARN  2018-09-20 17:34:35,486 [18   ] Mvc.ExceptionHandling.AbpExceptionFilter -  (category.id)
+INFO  2018-09-20 17:34:35,488 [18   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-09-20 17:34:35,491 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Hasin.Categorys.CategoryAppService.CreateOrUpdate (Hasin.Application) in 69.1585ms
+INFO  2018-09-20 17:34:35,494 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 84.9288ms 400 application/json; charset=utf-8
+INFO  2018-09-20 17:34:38,792 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Category/CreateOrUpdate application/json-patch+json 55
+INFO  2018-09-20 17:34:38,794 [18   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-09-20 17:34:38,795 [18   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-09-20 17:34:38,797 [18   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-09-20 17:34:38,803 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "CreateOrUpdate", controller = "Category"}. Executing action Hasin.Categorys.CategoryAppService.CreateOrUpdate (Hasin.Application)
+INFO  2018-09-20 17:34:38,808 [18   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-09-20 17:34:38,810 [18   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+WARN  2018-09-20 17:34:38,839 [17   ] Mvc.ExceptionHandling.AbpExceptionFilter - Method arguments are not valid! See ValidationErrors for details.
+Abp.Runtime.Validation.AbpValidationException: Method arguments are not valid! See ValidationErrors for details.
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.ThrowValidationError() in D:\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\MethodInvocationValidator.cs:line 118
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.Validate() in D:\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\MethodInvocationValidator.cs:line 89
+   at Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Validation\AbpValidationActionFilter.cs:line 35
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+WARN  2018-09-20 17:34:38,839 [17   ] Mvc.ExceptionHandling.AbpExceptionFilter - There are 2 validation errors:
+WARN  2018-09-20 17:34:38,839 [17   ] Mvc.ExceptionHandling.AbpExceptionFilter -  (category.id)
+WARN  2018-09-20 17:34:38,839 [17   ] Mvc.ExceptionHandling.AbpExceptionFilter -  (category.id)
+INFO  2018-09-20 17:34:38,842 [17   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-09-20 17:34:38,843 [17   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Hasin.Categorys.CategoryAppService.CreateOrUpdate (Hasin.Application) in 39.41ms
+INFO  2018-09-20 17:34:38,846 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 52.8166ms 400 application/json; charset=utf-8
+INFO  2018-09-20 17:34:48,469 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Category/CreateOrUpdate application/json-patch+json 56
+INFO  2018-09-20 17:34:48,473 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-09-20 17:34:48,475 [6    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-09-20 17:34:48,477 [6    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-09-20 17:34:48,486 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "CreateOrUpdate", controller = "Category"}. Executing action Hasin.Categorys.CategoryAppService.CreateOrUpdate (Hasin.Application)
+INFO  2018-09-20 17:34:48,488 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-09-20 17:34:48,490 [6    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-09-20 17:34:48,510 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Hasin.Categorys.CategoryAppService.CreateOrUpdate (Hasin.Application) with arguments (Hasin.Categorys.Dtos.CreateOrUpdateCategoryInput) - Validation state: Valid
+ERROR 2018-09-20 17:34:48,708 [34   ] Mvc.ExceptionHandling.AbpExceptionFilter - There is no such an entity. Entity type: Hasin.Categorys.Category, id: 1
+Abp.Domain.Entities.EntityNotFoundException: There is no such an entity. Entity type: Hasin.Categorys.Category, id: 1
+   at Abp.Domain.Repositories.AbpRepositoryBase`2.GetAsync(TPrimaryKey id) in D:\Github\aspnetboilerplate\src\Abp\Domain\Repositories\AbpRepositoryBase.cs:line 86
+   at Abp.Threading.InternalAsyncHelper.AwaitTaskWithPostActionAndFinallyAndGetResult[T](Task`1 actualReturnValue, Func`1 postAction, Action`1 finalAction)
+   at Hasin.Categorys.CategoryAppService.Update(CategoryEditDto input) in C:\Users\Administrator\Desktop\4.0.1\aspnet-core\src\Hasin.Application\Categorys\CategoryApplicationService.cs:line 163
+   at Abp.Threading.InternalAsyncHelper.AwaitTaskWithPostActionAndFinally(Task actualReturnValue, Func`1 postAction, Action`1 finalAction) in D:\Github\aspnetboilerplate\src\Abp\Threading\InternalAsyncHelper.cs:line 35
+   at Hasin.Categorys.CategoryAppService.CreateOrUpdate(CreateOrUpdateCategoryInput input) in C:\Users\Administrator\Desktop\4.0.1\aspnet-core\src\Hasin.Application\Categorys\CategoryApplicationService.cs:line 130
+   at lambda_method(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+INFO  2018-09-20 17:34:48,710 [34   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-09-20 17:34:48,712 [34   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Hasin.Categorys.CategoryAppService.CreateOrUpdate (Hasin.Application) in 224.548ms
+INFO  2018-09-20 17:34:48,718 [34   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 248.9793ms 404 application/json; charset=utf-8
+INFO  2018-09-20 17:35:42,066 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Category/CreateOrUpdate application/json-patch+json 56
+INFO  2018-09-20 17:35:42,067 [18   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-09-20 17:35:42,069 [18   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-09-20 17:35:42,071 [18   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-09-20 17:35:42,076 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "CreateOrUpdate", controller = "Category"}. Executing action Hasin.Categorys.CategoryAppService.CreateOrUpdate (Hasin.Application)
+INFO  2018-09-20 17:35:42,077 [18   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-09-20 17:35:42,079 [18   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-09-20 17:35:42,102 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Hasin.Categorys.CategoryAppService.CreateOrUpdate (Hasin.Application) with arguments (Hasin.Categorys.Dtos.CreateOrUpdateCategoryInput) - Validation state: Valid
+ERROR 2018-09-20 17:35:54,732 [34   ] Mvc.ExceptionHandling.AbpExceptionFilter - There is no such an entity. Entity type: Hasin.Categorys.Category, id: 1
+Abp.Domain.Entities.EntityNotFoundException: There is no such an entity. Entity type: Hasin.Categorys.Category, id: 1
+   at Abp.Domain.Repositories.AbpRepositoryBase`2.GetAsync(TPrimaryKey id) in D:\Github\aspnetboilerplate\src\Abp\Domain\Repositories\AbpRepositoryBase.cs:line 86
+   at Abp.Threading.InternalAsyncHelper.AwaitTaskWithPostActionAndFinallyAndGetResult[T](Task`1 actualReturnValue, Func`1 postAction, Action`1 finalAction)
+   at Hasin.Categorys.CategoryAppService.Update(CategoryEditDto input) in C:\Users\Administrator\Desktop\4.0.1\aspnet-core\src\Hasin.Application\Categorys\CategoryApplicationService.cs:line 163
+   at Abp.Threading.InternalAsyncHelper.AwaitTaskWithPostActionAndFinally(Task actualReturnValue, Func`1 postAction, Action`1 finalAction) in D:\Github\aspnetboilerplate\src\Abp\Threading\InternalAsyncHelper.cs:line 35
+   at Hasin.Categorys.CategoryAppService.CreateOrUpdate(CreateOrUpdateCategoryInput input) in C:\Users\Administrator\Desktop\4.0.1\aspnet-core\src\Hasin.Application\Categorys\CategoryApplicationService.cs:line 130
+   at lambda_method(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+INFO  2018-09-20 17:35:54,734 [34   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-09-20 17:35:54,736 [34   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Hasin.Categorys.CategoryAppService.CreateOrUpdate (Hasin.Application) in 12657.947ms
+INFO  2018-09-20 17:35:54,740 [34   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 12671.6341ms 404 application/json; charset=utf-8
+INFO  2018-09-20 17:36:04,607 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Category/CreateOrUpdate application/json-patch+json 56
+INFO  2018-09-20 17:36:04,609 [18   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-09-20 17:36:04,611 [18   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-09-20 17:36:04,613 [18   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-09-20 17:36:04,620 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "CreateOrUpdate", controller = "Category"}. Executing action Hasin.Categorys.CategoryAppService.CreateOrUpdate (Hasin.Application)
+INFO  2018-09-20 17:36:04,622 [18   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-09-20 17:36:04,625 [18   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-09-20 17:36:04,646 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Hasin.Categorys.CategoryAppService.CreateOrUpdate (Hasin.Application) with arguments (Hasin.Categorys.Dtos.CreateOrUpdateCategoryInput) - Validation state: Valid
+ERROR 2018-09-20 17:36:06,129 [6    ] Mvc.ExceptionHandling.AbpExceptionFilter - There is no such an entity. Entity type: Hasin.Categorys.Category, id: 1
+Abp.Domain.Entities.EntityNotFoundException: There is no such an entity. Entity type: Hasin.Categorys.Category, id: 1
+   at Abp.Domain.Repositories.AbpRepositoryBase`2.GetAsync(TPrimaryKey id) in D:\Github\aspnetboilerplate\src\Abp\Domain\Repositories\AbpRepositoryBase.cs:line 86
+   at Abp.Threading.InternalAsyncHelper.AwaitTaskWithPostActionAndFinallyAndGetResult[T](Task`1 actualReturnValue, Func`1 postAction, Action`1 finalAction)
+   at Hasin.Categorys.CategoryAppService.Update(CategoryEditDto input) in C:\Users\Administrator\Desktop\4.0.1\aspnet-core\src\Hasin.Application\Categorys\CategoryApplicationService.cs:line 163
+   at Abp.Threading.InternalAsyncHelper.AwaitTaskWithPostActionAndFinally(Task actualReturnValue, Func`1 postAction, Action`1 finalAction) in D:\Github\aspnetboilerplate\src\Abp\Threading\InternalAsyncHelper.cs:line 35
+   at Hasin.Categorys.CategoryAppService.CreateOrUpdate(CreateOrUpdateCategoryInput input) in C:\Users\Administrator\Desktop\4.0.1\aspnet-core\src\Hasin.Application\Categorys\CategoryApplicationService.cs:line 130
+   at lambda_method(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+INFO  2018-09-20 17:36:06,131 [6    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-09-20 17:36:06,133 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Hasin.Categorys.CategoryAppService.CreateOrUpdate (Hasin.Application) in 1510.8277ms
+INFO  2018-09-20 17:36:06,136 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1527.6698ms 404 application/json; charset=utf-8
+INFO  2018-09-20 17:36:41,211 [34   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Category/GetPaged?MaxResultCount=10&SkipCount=0  
+INFO  2018-09-20 17:36:41,213 [34   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-09-20 17:36:41,245 [34   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetPaged", controller = "Category"}. Executing action Hasin.Categorys.CategoryAppService.GetPaged (Hasin.Application)
+INFO  2018-09-20 17:36:41,302 [34   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Hasin.Categorys.CategoryAppService.GetPaged (Hasin.Application) with arguments (Hasin.Categorys.Dtos.GetCategorysInput) - Validation state: Valid
+INFO  2018-09-20 17:36:42,154 [41   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Hasin.Categorys.CategoryAppService.GetPaged (Hasin.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 850.9333ms.
+INFO  2018-09-20 17:36:42,195 [39   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-09-20 17:36:42,282 [39   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Hasin.Categorys.CategoryAppService.GetPaged (Hasin.Application) in 1035.3779ms
+INFO  2018-09-20 17:36:42,285 [39   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1072.9937ms 200 application/json; charset=utf-8
+INFO  2018-09-20 17:37:44,849 [45   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Category/GetForEdit?Id=1  
+INFO  2018-09-20 17:37:44,852 [45   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-09-20 17:37:44,861 [45   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetForEdit", controller = "Category"}. Executing action Hasin.Categorys.CategoryAppService.GetForEdit (Hasin.Application)
+INFO  2018-09-20 17:37:44,883 [45   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Hasin.Categorys.CategoryAppService.GetForEdit (Hasin.Application) with arguments (Abp.Application.Services.Dto.NullableIdDto`1[System.Int64]) - Validation state: Valid
+ERROR 2018-09-20 17:37:45,021 [6    ] Mvc.ExceptionHandling.AbpExceptionFilter - There is no such an entity. Entity type: Hasin.Categorys.Category, id: 1
+Abp.Domain.Entities.EntityNotFoundException: There is no such an entity. Entity type: Hasin.Categorys.Category, id: 1
+   at Abp.Domain.Repositories.AbpRepositoryBase`2.GetAsync(TPrimaryKey id) in D:\Github\aspnetboilerplate\src\Abp\Domain\Repositories\AbpRepositoryBase.cs:line 86
+   at Abp.Threading.InternalAsyncHelper.AwaitTaskWithPostActionAndFinallyAndGetResult[T](Task`1 actualReturnValue, Func`1 postAction, Action`1 finalAction)
+   at Hasin.Categorys.CategoryAppService.GetForEdit(NullableIdDto`1 input) in C:\Users\Administrator\Desktop\4.0.1\aspnet-core\src\Hasin.Application\Categorys\CategoryApplicationService.cs:line 103
+   at lambda_method(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+INFO  2018-09-20 17:37:45,023 [6    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-09-20 17:37:45,028 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Hasin.Categorys.CategoryAppService.GetForEdit (Hasin.Application) in 162.0079ms
+INFO  2018-09-20 17:37:45,031 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 180.0941ms 404 application/json; charset=utf-8
+INFO  2018-09-20 17:37:52,073 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Category/GetForEdit?Id=2  
+INFO  2018-09-20 17:37:52,074 [18   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-09-20 17:37:52,081 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetForEdit", controller = "Category"}. Executing action Hasin.Categorys.CategoryAppService.GetForEdit (Hasin.Application)
+INFO  2018-09-20 17:37:52,102 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Hasin.Categorys.CategoryAppService.GetForEdit (Hasin.Application) with arguments (Abp.Application.Services.Dto.NullableIdDto`1[System.Int64]) - Validation state: Valid
+INFO  2018-09-20 17:37:52,136 [34   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Hasin.Categorys.CategoryAppService.GetForEdit (Hasin.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 32.2743ms.
+INFO  2018-09-20 17:37:52,177 [41   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-09-20 17:37:52,182 [41   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Hasin.Categorys.CategoryAppService.GetForEdit (Hasin.Application) in 99.1954ms
+INFO  2018-09-20 17:37:52,185 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 111.4362ms 200 application/json; charset=utf-8
+DEBUG 2018-09-20 17:40:31,675 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-09-20 17:40:31,750 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-09-20 17:40:31,769 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Hasin.Web.Host.Startup.HasinWebHostModule, Hasin.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:40:31,771 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Hasin.HasinWebCoreModule, Hasin.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:40:31,771 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Hasin.HasinApplicationModule, Hasin.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:40:31,772 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Hasin.HasinCoreModule, Hasin.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:40:31,772 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:40:31,772 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:40:31,772 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:40:31,774 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:40:31,775 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Hasin.EntityFrameworkCore.HasinEntityFrameworkModule, Hasin.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:40:31,775 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:40:31,775 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:40:31,776 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:40:31,776 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:40:31,776 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:40:31,776 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:40:31,779 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-09-20 17:40:31,856 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-20 17:40:31,856 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-20 17:40:31,856 [1    ] o.Configuration.LanguageManagementConfig - Converted Hasin (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-20 17:40:31,856 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-20 17:40:32,191 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Hasin.EntityFrameworkCore.HasinDbContext, Hasin.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:40:33,070 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-09-20 17:40:33,129 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-09-20 17:40:33,182 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-09-20 17:40:33,204 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Hasin
+DEBUG 2018-09-20 17:40:33,243 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-09-20 17:40:33,388 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-09-20 17:40:33,436 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2018-09-20 17:40:33,436 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-09-20 17:40:33,444 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.Users.Dto.CreateUserDto
+DEBUG 2018-09-20 17:40:33,444 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.Users.Dto.UserDto
+DEBUG 2018-09-20 17:40:33,445 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-09-20 17:40:33,445 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-09-20 17:40:33,445 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.Roles.Dto.CreateRoleDto
+DEBUG 2018-09-20 17:40:33,445 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.Roles.Dto.PermissionDto
+DEBUG 2018-09-20 17:40:33,445 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.Roles.Dto.RoleDto
+DEBUG 2018-09-20 17:40:33,446 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-09-20 17:40:33,446 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.MultiTenancy.Dto.TenantDto
+INFO  2018-09-20 17:40:38,277 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:21021/  0
+INFO  2018-09-20 17:40:38,277 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2018-09-20 17:40:38,363 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 94.5105ms 200 
+INFO  2018-09-20 17:40:41,516 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action Hasin.Web.Host.Controllers.HomeController.Index (Hasin.Web.Host)
+INFO  2018-09-20 17:40:42,430 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Hasin.Web.Host.Controllers.HomeController.Index (Hasin.Web.Host) - Validation state: Valid
+INFO  2018-09-20 17:40:42,436 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Hasin.Web.Host.Controllers.HomeController.Index (Hasin.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 2.6514ms.
+INFO  2018-09-20 17:40:42,689 [11   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2018-09-20 17:40:42,705 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Hasin.Web.Host.Controllers.HomeController.Index (Hasin.Web.Host) in 1183.4108ms
+INFO  2018-09-20 17:40:42,725 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4459.0691ms 302 
+INFO  2018-09-20 17:40:42,727 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2018-09-20 17:40:42,768 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 41.144ms 200 text/html
+INFO  2018-09-20 17:40:42,829 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2018-09-20 17:40:42,831 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2018-09-20 17:40:42,833 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2018-09-20 17:40:42,835 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2018-09-20 17:40:42,836 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2018-09-20 17:40:42,853 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger/ui/abp.swagger.js was not modified
+INFO  2018-09-20 17:40:42,854 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-standalone-preset.js was not modified
+INFO  2018-09-20 17:40:42,856 [7    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger/ui/abp.js was not modified
+INFO  2018-09-20 17:40:42,857 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.css was not modified
+INFO  2018-09-20 17:40:42,859 [14   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-bundle.js was not modified
+INFO  2018-09-20 17:40:42,866 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 40.0585ms 304 application/javascript
+INFO  2018-09-20 17:40:42,874 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 49.8606ms 304 application/javascript
+INFO  2018-09-20 17:40:42,889 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 41.1965ms 304 application/javascript
+INFO  2018-09-20 17:40:42,893 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 41.2401ms 304 text/css
+INFO  2018-09-20 17:40:42,895 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 33.1588ms 304 application/javascript
+INFO  2018-09-20 17:40:43,024 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2018-09-20 17:40:43,151 [10   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-09-20 17:40:43,476 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 454.0281ms 200 application/json;charset=utf-8
+INFO  2018-09-20 17:41:28,693 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Category/CreateOrUpdate application/json-patch+json 57
+INFO  2018-09-20 17:41:28,708 [10   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-09-20 17:41:28,714 [10   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-09-20 17:41:28,720 [10   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-09-20 17:41:28,755 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "CreateOrUpdate", controller = "Category"}. Executing action Hasin.Categorys.CategoryAppService.CreateOrUpdate (Hasin.Application)
+INFO  2018-09-20 17:41:28,756 [10   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-09-20 17:41:28,757 [10   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-09-20 17:41:29,472 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Hasin.Categorys.CategoryAppService.CreateOrUpdate (Hasin.Application) with arguments (Hasin.Categorys.Dtos.CreateOrUpdateCategoryInput) - Validation state: Valid
+INFO  2018-09-20 17:41:29,602 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Hasin.Categorys.CategoryAppService.CreateOrUpdate (Hasin.Application), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 128.9784ms.
+INFO  2018-09-20 17:41:29,759 [15   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-09-20 17:41:29,778 [15   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Hasin.Categorys.CategoryAppService.CreateOrUpdate (Hasin.Application) in 1021.7285ms
+INFO  2018-09-20 17:41:29,783 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1087.2055ms 200 application/json; charset=utf-8
+INFO  2018-09-20 17:41:58,604 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DELETE http://localhost:21021/api/services/app/Category/Delete?Id=2  
+INFO  2018-09-20 17:41:58,609 [20   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-09-20 17:41:58,612 [20   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-09-20 17:41:58,614 [20   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-09-20 17:41:58,639 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "Delete", controller = "Category"}. Executing action Hasin.Categorys.CategoryAppService.Delete (Hasin.Application)
+INFO  2018-09-20 17:41:58,640 [20   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-09-20 17:41:58,641 [20   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-09-20 17:41:58,680 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Hasin.Categorys.CategoryAppService.Delete (Hasin.Application) with arguments (Abp.Application.Services.Dto.EntityDto`1[System.Int64]) - Validation state: Valid
+INFO  2018-09-20 17:41:58,756 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Hasin.Categorys.CategoryAppService.Delete (Hasin.Application), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 74.8813ms.
+INFO  2018-09-20 17:41:58,901 [20   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-09-20 17:41:58,904 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Hasin.Categorys.CategoryAppService.Delete (Hasin.Application) in 262.7945ms
+INFO  2018-09-20 17:41:58,907 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 305.7091ms 200 application/json; charset=utf-8
+INFO  2018-09-20 17:42:42,987 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Category/GetForEdit?Id=1  
+INFO  2018-09-20 17:42:42,989 [7    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-09-20 17:42:43,013 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetForEdit", controller = "Category"}. Executing action Hasin.Categorys.CategoryAppService.GetForEdit (Hasin.Application)
+INFO  2018-09-20 17:42:43,038 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Hasin.Categorys.CategoryAppService.GetForEdit (Hasin.Application) with arguments (Abp.Application.Services.Dto.NullableIdDto`1[System.Int64]) - Validation state: Valid
+ERROR 2018-09-20 17:42:43,242 [18   ] Mvc.ExceptionHandling.AbpExceptionFilter - There is no such an entity. Entity type: Hasin.Categorys.Category, id: 1
+Abp.Domain.Entities.EntityNotFoundException: There is no such an entity. Entity type: Hasin.Categorys.Category, id: 1
+   at Abp.Domain.Repositories.AbpRepositoryBase`2.GetAsync(TPrimaryKey id) in D:\Github\aspnetboilerplate\src\Abp\Domain\Repositories\AbpRepositoryBase.cs:line 86
+   at Abp.Threading.InternalAsyncHelper.AwaitTaskWithPostActionAndFinallyAndGetResult[T](Task`1 actualReturnValue, Func`1 postAction, Action`1 finalAction)
+   at Hasin.Categorys.CategoryAppService.GetForEdit(NullableIdDto`1 input) in C:\Users\Administrator\Desktop\4.0.1\aspnet-core\src\Hasin.Application\Categorys\CategoryApplicationService.cs:line 103
+   at lambda_method(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+INFO  2018-09-20 17:42:43,582 [18   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-09-20 17:42:43,588 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Hasin.Categorys.CategoryAppService.GetForEdit (Hasin.Application) in 571.0463ms
+INFO  2018-09-20 17:42:43,595 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 602.8192ms 404 application/json; charset=utf-8
+INFO  2018-09-20 17:42:48,424 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Category/GetForEdit?Id=2  
+INFO  2018-09-20 17:42:48,426 [18   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-09-20 17:42:48,432 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetForEdit", controller = "Category"}. Executing action Hasin.Categorys.CategoryAppService.GetForEdit (Hasin.Application)
+INFO  2018-09-20 17:42:48,455 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Hasin.Categorys.CategoryAppService.GetForEdit (Hasin.Application) with arguments (Abp.Application.Services.Dto.NullableIdDto`1[System.Int64]) - Validation state: Valid
+ERROR 2018-09-20 17:42:48,590 [19   ] Mvc.ExceptionHandling.AbpExceptionFilter - There is no such an entity. Entity type: Hasin.Categorys.Category, id: 2
+Abp.Domain.Entities.EntityNotFoundException: There is no such an entity. Entity type: Hasin.Categorys.Category, id: 2
+   at Abp.Domain.Repositories.AbpRepositoryBase`2.GetAsync(TPrimaryKey id) in D:\Github\aspnetboilerplate\src\Abp\Domain\Repositories\AbpRepositoryBase.cs:line 86
+   at Abp.Threading.InternalAsyncHelper.AwaitTaskWithPostActionAndFinallyAndGetResult[T](Task`1 actualReturnValue, Func`1 postAction, Action`1 finalAction)
+   at Hasin.Categorys.CategoryAppService.GetForEdit(NullableIdDto`1 input) in C:\Users\Administrator\Desktop\4.0.1\aspnet-core\src\Hasin.Application\Categorys\CategoryApplicationService.cs:line 103
+   at lambda_method(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+INFO  2018-09-20 17:42:48,593 [19   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-09-20 17:42:48,595 [19   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Hasin.Categorys.CategoryAppService.GetForEdit (Hasin.Application) in 161.6701ms
+INFO  2018-09-20 17:42:48,597 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 171.7652ms 404 application/json; charset=utf-8
+INFO  2018-09-20 17:45:24,168 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Category/GetPaged?MaxResultCount=100&SkipCount=0  
+INFO  2018-09-20 17:45:24,171 [21   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-09-20 17:45:24,181 [21   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetPaged", controller = "Category"}. Executing action Hasin.Categorys.CategoryAppService.GetPaged (Hasin.Application)
+INFO  2018-09-20 17:45:24,210 [21   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Hasin.Categorys.CategoryAppService.GetPaged (Hasin.Application) with arguments (Hasin.Categorys.Dtos.GetCategorysInput) - Validation state: Valid
+INFO  2018-09-20 17:46:20,970 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Hasin.Categorys.CategoryAppService.GetPaged (Hasin.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 56757.618ms.
+INFO  2018-09-20 17:46:21,005 [11   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-09-20 17:46:21,010 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Hasin.Categorys.CategoryAppService.GetPaged (Hasin.Application) in 56826.6814ms
+INFO  2018-09-20 17:46:21,016 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 56844.3138ms 200 application/json; charset=utf-8
+DEBUG 2018-09-20 17:47:43,644 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-09-20 17:47:43,719 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-09-20 17:47:43,739 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Hasin.Web.Host.Startup.HasinWebHostModule, Hasin.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:47:43,742 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Hasin.HasinWebCoreModule, Hasin.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:47:43,742 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Hasin.HasinApplicationModule, Hasin.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:47:43,744 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Hasin.HasinCoreModule, Hasin.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:47:43,745 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:47:43,746 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:47:43,746 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:47:43,746 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:47:43,747 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Hasin.EntityFrameworkCore.HasinEntityFrameworkModule, Hasin.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:47:43,747 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:47:43,747 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:47:43,747 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:47:43,748 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:47:43,748 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:47:43,748 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:47:43,751 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-09-20 17:47:43,834 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-20 17:47:43,835 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-20 17:47:43,835 [1    ] o.Configuration.LanguageManagementConfig - Converted Hasin (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-20 17:47:43,835 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-20 17:47:44,200 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Hasin.EntityFrameworkCore.HasinDbContext, Hasin.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 17:47:45,013 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-09-20 17:47:45,071 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-09-20 17:47:45,139 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-09-20 17:47:45,158 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Hasin
+DEBUG 2018-09-20 17:47:45,190 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-09-20 17:47:45,341 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-09-20 17:47:45,385 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2018-09-20 17:47:45,385 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-09-20 17:47:45,392 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.Users.Dto.CreateUserDto
+DEBUG 2018-09-20 17:47:45,392 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.Users.Dto.UserDto
+DEBUG 2018-09-20 17:47:45,393 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-09-20 17:47:45,393 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-09-20 17:47:45,393 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.Roles.Dto.CreateRoleDto
+DEBUG 2018-09-20 17:47:45,393 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.Roles.Dto.PermissionDto
+DEBUG 2018-09-20 17:47:45,393 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.Roles.Dto.RoleDto
+DEBUG 2018-09-20 17:47:45,395 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-09-20 17:47:45,395 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.MultiTenancy.Dto.TenantDto
+INFO  2018-09-20 17:47:51,021 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2018-09-20 17:47:51,021 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:21021/  0
+INFO  2018-09-20 17:47:51,112 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 95.06ms 200 
+INFO  2018-09-20 17:47:59,483 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action Hasin.Web.Host.Controllers.HomeController.Index (Hasin.Web.Host)
+INFO  2018-09-20 17:48:00,406 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Hasin.Web.Host.Controllers.HomeController.Index (Hasin.Web.Host) - Validation state: Valid
+INFO  2018-09-20 17:48:00,413 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Hasin.Web.Host.Controllers.HomeController.Index (Hasin.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 2.0029ms.
+INFO  2018-09-20 17:48:00,669 [10   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2018-09-20 17:48:00,683 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Hasin.Web.Host.Controllers.HomeController.Index (Hasin.Web.Host) in 1195.1807ms
+INFO  2018-09-20 17:48:00,703 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 9691.5647ms 302 
+INFO  2018-09-20 17:48:00,706 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2018-09-20 17:48:00,746 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 38.7326ms 200 text/html
+INFO  2018-09-20 17:48:00,784 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2018-09-20 17:48:00,785 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2018-09-20 17:48:00,786 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2018-09-20 17:48:00,806 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-bundle.js was not modified
+INFO  2018-09-20 17:48:00,808 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.css was not modified
+INFO  2018-09-20 17:48:00,809 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-standalone-preset.js was not modified
+INFO  2018-09-20 17:48:00,813 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 44.7667ms 304 text/css
+INFO  2018-09-20 17:48:00,817 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 43.9758ms 304 application/javascript
+INFO  2018-09-20 17:48:00,819 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 40.5437ms 304 application/javascript
+INFO  2018-09-20 17:48:00,967 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2018-09-20 17:48:01,092 [7    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-09-20 17:48:01,409 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 442.0681ms 200 application/json;charset=utf-8
+INFO  2018-09-20 17:48:25,350 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Category/CreateOrUpdate application/json-patch+json 44
+INFO  2018-09-20 17:48:25,356 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-09-20 17:48:25,359 [6    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-09-20 17:48:25,365 [6    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-09-20 17:48:25,403 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "CreateOrUpdate", controller = "Category"}. Executing action Hasin.Categorys.CategoryAppService.CreateOrUpdate (Hasin.Application)
+INFO  2018-09-20 17:48:25,404 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-09-20 17:48:25,405 [6    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-09-20 17:48:26,106 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Hasin.Categorys.CategoryAppService.CreateOrUpdate (Hasin.Application) with arguments (Hasin.Categorys.Dtos.CreateOrUpdateCategoryInput) - Validation state: Valid
+INFO  2018-09-20 17:48:26,146 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Hasin.Categorys.CategoryAppService.CreateOrUpdate (Hasin.Application), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 37.3675ms.
+INFO  2018-09-20 17:48:26,263 [6    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-09-20 17:48:26,281 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Hasin.Categorys.CategoryAppService.CreateOrUpdate (Hasin.Application) in 876.9704ms
+INFO  2018-09-20 17:48:26,284 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 933.8163ms 200 application/json; charset=utf-8
+INFO  2018-09-20 17:48:32,589 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Category/CreateOrUpdate application/json-patch+json 44
+INFO  2018-09-20 17:48:32,591 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-09-20 17:48:32,592 [6    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-09-20 17:48:32,595 [6    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-09-20 17:48:32,601 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "CreateOrUpdate", controller = "Category"}. Executing action Hasin.Categorys.CategoryAppService.CreateOrUpdate (Hasin.Application)
+INFO  2018-09-20 17:48:32,606 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-09-20 17:48:32,609 [6    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-09-20 17:48:32,642 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Hasin.Categorys.CategoryAppService.CreateOrUpdate (Hasin.Application) with arguments (Hasin.Categorys.Dtos.CreateOrUpdateCategoryInput) - Validation state: Valid
+INFO  2018-09-20 17:48:32,648 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Hasin.Categorys.CategoryAppService.CreateOrUpdate (Hasin.Application), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 4.0485ms.
+INFO  2018-09-20 17:48:32,708 [6    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-09-20 17:48:32,710 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Hasin.Categorys.CategoryAppService.CreateOrUpdate (Hasin.Application) in 106.4502ms
+INFO  2018-09-20 17:48:32,718 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 123ms 200 application/json; charset=utf-8
+INFO  2018-09-20 17:49:03,169 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Category/CreateOrUpdate application/json-patch+json 44
+INFO  2018-09-20 17:49:03,171 [16   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-09-20 17:49:03,172 [16   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-09-20 17:49:03,206 [16   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-09-20 17:49:03,211 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "CreateOrUpdate", controller = "Category"}. Executing action Hasin.Categorys.CategoryAppService.CreateOrUpdate (Hasin.Application)
+INFO  2018-09-20 17:49:03,215 [16   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-09-20 17:49:03,217 [16   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-09-20 17:49:03,259 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Hasin.Categorys.CategoryAppService.CreateOrUpdate (Hasin.Application) with arguments (Hasin.Categorys.Dtos.CreateOrUpdateCategoryInput) - Validation state: Valid
+INFO  2018-09-20 17:49:03,264 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Hasin.Categorys.CategoryAppService.CreateOrUpdate (Hasin.Application), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 2.9475ms.
+INFO  2018-09-20 17:49:03,336 [18   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-09-20 17:49:03,338 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Hasin.Categorys.CategoryAppService.CreateOrUpdate (Hasin.Application) in 124.5016ms
+INFO  2018-09-20 17:49:03,342 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 172.879ms 200 application/json; charset=utf-8
+INFO  2018-09-20 17:49:14,194 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Category/GetPaged?MaxResultCount=10&SkipCount=0  
+INFO  2018-09-20 17:49:14,196 [19   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-09-20 17:49:14,222 [19   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetPaged", controller = "Category"}. Executing action Hasin.Categorys.CategoryAppService.GetPaged (Hasin.Application)
+INFO  2018-09-20 17:49:14,267 [19   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Hasin.Categorys.CategoryAppService.GetPaged (Hasin.Application) with arguments (Hasin.Categorys.Dtos.GetCategorysInput) - Validation state: Valid
+INFO  2018-09-20 17:49:15,177 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Hasin.Categorys.CategoryAppService.GetPaged (Hasin.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 908.3406ms.
+INFO  2018-09-20 17:49:15,223 [16   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-09-20 17:49:15,227 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Hasin.Categorys.CategoryAppService.GetPaged (Hasin.Application) in 1003.8547ms
+INFO  2018-09-20 17:49:15,234 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1035.0635ms 200 application/json; charset=utf-8
+DEBUG 2018-09-20 18:03:02,929 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-09-20 18:03:03,008 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-09-20 18:03:03,030 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Hasin.Web.Host.Startup.HasinWebHostModule, Hasin.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 18:03:03,032 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Hasin.HasinWebCoreModule, Hasin.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 18:03:03,032 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Hasin.HasinApplicationModule, Hasin.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 18:03:03,033 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Hasin.HasinCoreModule, Hasin.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 18:03:03,033 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 18:03:03,033 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 18:03:03,033 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 18:03:03,034 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 18:03:03,034 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Hasin.EntityFrameworkCore.HasinEntityFrameworkModule, Hasin.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 18:03:03,034 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 18:03:03,035 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 18:03:03,035 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 18:03:03,035 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 18:03:03,035 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 18:03:03,036 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 18:03:03,039 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-09-20 18:03:03,126 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-20 18:03:03,126 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-20 18:03:03,126 [1    ] o.Configuration.LanguageManagementConfig - Converted Hasin (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-20 18:03:03,126 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-20 18:03:03,482 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Hasin.EntityFrameworkCore.HasinDbContext, Hasin.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 18:03:04,317 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-09-20 18:03:04,376 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-09-20 18:03:04,423 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-09-20 18:03:04,442 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Hasin
+DEBUG 2018-09-20 18:03:04,473 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-09-20 18:03:04,623 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-09-20 18:03:04,669 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2018-09-20 18:03:04,669 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-09-20 18:03:04,676 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.Users.Dto.CreateUserDto
+DEBUG 2018-09-20 18:03:04,677 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.Users.Dto.UserDto
+DEBUG 2018-09-20 18:03:04,677 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-09-20 18:03:04,677 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-09-20 18:03:04,678 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.Roles.Dto.CreateRoleDto
+DEBUG 2018-09-20 18:03:04,678 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.Roles.Dto.PermissionDto
+DEBUG 2018-09-20 18:03:04,678 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.Roles.Dto.RoleDto
+DEBUG 2018-09-20 18:03:04,679 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-09-20 18:03:04,679 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.MultiTenancy.Dto.TenantDto
+INFO  2018-09-20 18:03:11,677 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:21021/  0
+INFO  2018-09-20 18:03:11,677 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2018-09-20 18:03:11,761 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 95.3023ms 200 
+INFO  2018-09-20 18:03:19,597 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action Hasin.Web.Host.Controllers.HomeController.Index (Hasin.Web.Host)
+INFO  2018-09-20 18:03:20,574 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Hasin.Web.Host.Controllers.HomeController.Index (Hasin.Web.Host) - Validation state: Valid
+INFO  2018-09-20 18:03:20,580 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Hasin.Web.Host.Controllers.HomeController.Index (Hasin.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 2.0648ms.
+INFO  2018-09-20 18:03:20,696 [11   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2018-09-20 18:03:20,711 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Hasin.Web.Host.Controllers.HomeController.Index (Hasin.Web.Host) in 1108.3319ms
+INFO  2018-09-20 18:03:20,733 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2018-09-20 18:03:20,735 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 9071.3805ms 302 
+INFO  2018-09-20 18:03:20,773 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 38.2362ms 200 text/html
+INFO  2018-09-20 18:03:20,820 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2018-09-20 18:03:20,830 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2018-09-20 18:03:20,834 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2018-09-20 18:03:20,837 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2018-09-20 18:03:20,845 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2018-09-20 18:03:20,862 [7    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-bundle.js was not modified
+INFO  2018-09-20 18:03:20,863 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger/ui/abp.swagger.js was not modified
+INFO  2018-09-20 18:03:20,864 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-standalone-preset.js was not modified
+INFO  2018-09-20 18:03:20,865 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.css was not modified
+INFO  2018-09-20 18:03:20,867 [14   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger/ui/abp.js was not modified
+INFO  2018-09-20 18:03:20,875 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 36.3552ms 304 application/javascript
+INFO  2018-09-20 18:03:20,875 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 33.932ms 304 application/javascript
+INFO  2018-09-20 18:03:20,879 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 75.4496ms 304 application/javascript
+INFO  2018-09-20 18:03:20,882 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 53.6215ms 304 application/javascript
+INFO  2018-09-20 18:03:20,885 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 60.6363ms 304 text/css
+INFO  2018-09-20 18:03:21,045 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2018-09-20 18:03:21,180 [6    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-09-20 18:03:21,613 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 569.8964ms 200 application/json;charset=utf-8
+INFO  2018-09-20 18:03:43,688 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Category/CreateOrUpdate application/json-patch+json 44
+INFO  2018-09-20 18:03:43,694 [11   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-09-20 18:03:43,698 [11   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-09-20 18:03:43,703 [11   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-09-20 18:03:43,773 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "CreateOrUpdate", controller = "Category"}. Executing action Hasin.Categorys.CategoryAppService.CreateOrUpdate (Hasin.Application)
+INFO  2018-09-20 18:03:43,775 [7    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-09-20 18:03:43,777 [7    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-09-20 18:03:44,241 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Hasin.Categorys.CategoryAppService.CreateOrUpdate (Hasin.Application) with arguments (Hasin.Categorys.Dtos.CreateOrUpdateCategoryInput) - Validation state: Valid
+INFO  2018-09-20 18:03:44,276 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Hasin.Categorys.CategoryAppService.CreateOrUpdate (Hasin.Application), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 32.9143ms.
+INFO  2018-09-20 18:03:44,413 [14   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-09-20 18:03:44,431 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Hasin.Categorys.CategoryAppService.CreateOrUpdate (Hasin.Application) in 656.6541ms
+INFO  2018-09-20 18:03:44,434 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 745.4593ms 200 application/json; charset=utf-8
+INFO  2018-09-20 18:03:52,494 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Category/CreateOrUpdate application/json-patch+json 44
+INFO  2018-09-20 18:03:52,495 [7    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-09-20 18:03:52,497 [7    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-09-20 18:03:52,499 [7    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-09-20 18:03:52,511 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "CreateOrUpdate", controller = "Category"}. Executing action Hasin.Categorys.CategoryAppService.CreateOrUpdate (Hasin.Application)
+INFO  2018-09-20 18:03:52,513 [7    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-09-20 18:03:52,514 [7    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-09-20 18:03:52,536 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Hasin.Categorys.CategoryAppService.CreateOrUpdate (Hasin.Application) with arguments (Hasin.Categorys.Dtos.CreateOrUpdateCategoryInput) - Validation state: Valid
+INFO  2018-09-20 18:03:52,541 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Hasin.Categorys.CategoryAppService.CreateOrUpdate (Hasin.Application), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 2.6455ms.
+INFO  2018-09-20 18:03:52,627 [11   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-09-20 18:03:52,629 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Hasin.Categorys.CategoryAppService.CreateOrUpdate (Hasin.Application) in 115.7998ms
+INFO  2018-09-20 18:03:52,631 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 137.9868ms 200 application/json; charset=utf-8
+INFO  2018-09-20 18:03:57,669 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Category/CreateOrUpdate application/json-patch+json 44
+INFO  2018-09-20 18:03:57,672 [11   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-09-20 18:03:57,675 [11   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-09-20 18:03:57,677 [11   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-09-20 18:03:57,686 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "CreateOrUpdate", controller = "Category"}. Executing action Hasin.Categorys.CategoryAppService.CreateOrUpdate (Hasin.Application)
+INFO  2018-09-20 18:03:57,691 [11   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-09-20 18:03:57,692 [11   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-09-20 18:03:57,715 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Hasin.Categorys.CategoryAppService.CreateOrUpdate (Hasin.Application) with arguments (Hasin.Categorys.Dtos.CreateOrUpdateCategoryInput) - Validation state: Valid
+INFO  2018-09-20 18:03:57,718 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Hasin.Categorys.CategoryAppService.CreateOrUpdate (Hasin.Application), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 1.533ms.
+INFO  2018-09-20 18:03:57,782 [16   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-09-20 18:03:57,783 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Hasin.Categorys.CategoryAppService.CreateOrUpdate (Hasin.Application) in 95.5132ms
+INFO  2018-09-20 18:03:57,785 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 116.3196ms 200 application/json; charset=utf-8
+INFO  2018-09-20 18:04:01,051 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2018-09-20 18:04:01,053 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.0729ms 200 text/html
+INFO  2018-09-20 18:04:01,070 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2018-09-20 18:04:01,074 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2018-09-20 18:04:01,079 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2018-09-20 18:04:01,082 [7    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-bundle.js was not modified
+INFO  2018-09-20 18:04:01,084 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.css was not modified
+INFO  2018-09-20 18:04:01,087 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 15.4098ms 304 application/javascript
+INFO  2018-09-20 18:04:01,095 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 16.2539ms 304 text/css
+INFO  2018-09-20 18:04:01,096 [17   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-standalone-preset.js was not modified
+INFO  2018-09-20 18:04:01,103 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 27.1409ms 304 application/javascript
+INFO  2018-09-20 18:04:01,213 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2018-09-20 18:04:01,214 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/favicon-32x32.png  
+INFO  2018-09-20 18:04:01,225 [11   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-09-20 18:04:01,248 [16   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+INFO  2018-09-20 18:04:01,270 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 38.1034ms 200 image/png
+INFO  2018-09-20 18:04:01,288 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 60.6058ms 200 application/json;charset=utf-8
+INFO  2018-09-20 18:04:01,292 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/favicon-16x16.png  
+INFO  2018-09-20 18:04:01,295 [16   ] NetCore.StaticFiles.StaticFileMiddleware - The file /favicon-16x16.png was not modified
+INFO  2018-09-20 18:04:01,298 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 7.0411ms 304 image/png
+DEBUG 2018-09-20 18:05:33,973 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-09-20 18:05:34,056 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-09-20 18:05:34,073 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Hasin.Web.Host.Startup.HasinWebHostModule, Hasin.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 18:05:34,076 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Hasin.HasinWebCoreModule, Hasin.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 18:05:34,077 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Hasin.HasinApplicationModule, Hasin.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 18:05:34,077 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Hasin.HasinCoreModule, Hasin.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 18:05:34,077 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 18:05:34,077 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 18:05:34,078 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 18:05:34,078 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 18:05:34,078 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Hasin.EntityFrameworkCore.HasinEntityFrameworkModule, Hasin.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 18:05:34,079 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 18:05:34,079 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 18:05:34,079 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 18:05:34,079 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 18:05:34,080 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 18:05:34,080 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 18:05:34,083 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-09-20 18:05:34,155 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-20 18:05:34,155 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-20 18:05:34,155 [1    ] o.Configuration.LanguageManagementConfig - Converted Hasin (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-20 18:05:34,156 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-20 18:05:34,499 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Hasin.EntityFrameworkCore.HasinDbContext, Hasin.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 18:05:35,233 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-09-20 18:05:35,287 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-09-20 18:05:35,340 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-09-20 18:05:35,361 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Hasin
+DEBUG 2018-09-20 18:05:35,393 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-09-20 18:05:35,561 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-09-20 18:05:35,607 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2018-09-20 18:05:35,607 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-09-20 18:05:35,614 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.Users.Dto.CreateUserDto
+DEBUG 2018-09-20 18:05:35,615 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.Users.Dto.UserDto
+DEBUG 2018-09-20 18:05:35,615 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-09-20 18:05:35,616 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-09-20 18:05:35,616 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.Roles.Dto.CreateRoleDto
+DEBUG 2018-09-20 18:05:35,616 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.Roles.Dto.PermissionDto
+DEBUG 2018-09-20 18:05:35,616 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.Roles.Dto.RoleDto
+DEBUG 2018-09-20 18:05:35,617 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-09-20 18:05:35,617 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.MultiTenancy.Dto.TenantDto
+INFO  2018-09-20 18:05:40,768 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:21021/  0
+INFO  2018-09-20 18:05:40,768 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2018-09-20 18:05:40,850 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 89.8613ms 200 
+INFO  2018-09-20 18:05:48,736 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action Hasin.Web.Host.Controllers.HomeController.Index (Hasin.Web.Host)
+INFO  2018-09-20 18:05:49,602 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Hasin.Web.Host.Controllers.HomeController.Index (Hasin.Web.Host) - Validation state: Valid
+INFO  2018-09-20 18:05:49,608 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Hasin.Web.Host.Controllers.HomeController.Index (Hasin.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 2.847ms.
+INFO  2018-09-20 18:05:49,865 [11   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2018-09-20 18:05:49,878 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Hasin.Web.Host.Controllers.HomeController.Index (Hasin.Web.Host) in 1136.4631ms
+INFO  2018-09-20 18:05:49,898 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2018-09-20 18:05:49,901 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 9142.5153ms 302 
+INFO  2018-09-20 18:05:49,938 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 39.2701ms 200 text/html
+INFO  2018-09-20 18:05:49,989 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2018-09-20 18:05:49,990 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2018-09-20 18:05:49,995 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2018-09-20 18:05:50,016 [13   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-standalone-preset.js was not modified
+INFO  2018-09-20 18:05:50,019 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.css was not modified
+INFO  2018-09-20 18:05:50,020 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-bundle.js was not modified
+INFO  2018-09-20 18:05:50,031 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 39.9086ms 304 text/css
+INFO  2018-09-20 18:05:50,040 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 39.7876ms 304 application/javascript
+INFO  2018-09-20 18:05:50,046 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 43.713ms 304 application/javascript
+INFO  2018-09-20 18:05:50,186 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2018-09-20 18:05:50,314 [13   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-09-20 18:05:50,614 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 426.9267ms 200 application/json;charset=utf-8
+INFO  2018-09-20 18:06:14,611 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Product/CreateOrUpdate application/json-patch+json 64
+INFO  2018-09-20 18:06:14,618 [7    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-09-20 18:06:14,621 [7    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-09-20 18:06:14,626 [7    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-09-20 18:06:14,671 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "CreateOrUpdate", controller = "Product"}. Executing action Hasin.Products.ProductAppService.CreateOrUpdate (Hasin.Application)
+INFO  2018-09-20 18:06:14,673 [7    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-09-20 18:06:14,674 [7    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-09-20 18:06:15,389 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Hasin.Products.ProductAppService.CreateOrUpdate (Hasin.Application) with arguments (Hasin.Products.Dtos.CreateOrUpdateProductInput) - Validation state: Valid
+INFO  2018-09-20 18:06:15,425 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Hasin.Products.ProductAppService.CreateOrUpdate (Hasin.Application), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 34.9089ms.
+ERROR 2018-09-20 18:06:16,660 [7    ] Mvc.ExceptionHandling.AbpExceptionFilter - An error occurred while updating the entries. See the inner exception for details.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: 对象名 'Products' 无效。
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__122_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(DbContext _, ValueTuple`2 parameters, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IReadOnlyList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Abp.EntityFrameworkCore.AbpDbContext.SaveChangesAsync(CancellationToken cancellationToken) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\AbpDbContext.cs:line 214
+   at Abp.Zero.EntityFrameworkCore.AbpZeroCommonDbContext`3.SaveChangesAsync(CancellationToken cancellationToken) in D:\Github\aspnetboilerplate\src\Abp.ZeroCore.EntityFrameworkCore\Zero\EntityFrameworkCore\AbpZeroCommonDbContext.cs:line 165
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.SaveChangesInDbContextAsync(DbContext dbContext) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 167
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.SaveChangesAsync() in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 68
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.CompleteUowAsync() in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 83
+   at Abp.Domain.Uow.UnitOfWorkBase.CompleteAsync() in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkBase.cs:line 270
+   at Abp.AspNetCore.Mvc.Uow.AbpUowActionFilter.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Uow\AbpUowActionFilter.cs:line 49
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+INFO  2018-09-20 18:06:17,041 [7    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-09-20 18:06:17,062 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Hasin.Products.ProductAppService.CreateOrUpdate (Hasin.Application) in 2388.8506ms
+INFO  2018-09-20 18:06:17,066 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2456.4121ms 500 application/json; charset=utf-8
+DEBUG 2018-09-20 18:08:14,480 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-09-20 18:08:14,561 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-09-20 18:08:14,578 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Hasin.Web.Host.Startup.HasinWebHostModule, Hasin.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 18:08:14,581 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Hasin.HasinWebCoreModule, Hasin.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 18:08:14,581 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Hasin.HasinApplicationModule, Hasin.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 18:08:14,582 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Hasin.HasinCoreModule, Hasin.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 18:08:14,582 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 18:08:14,582 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 18:08:14,582 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 18:08:14,583 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 18:08:14,583 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Hasin.EntityFrameworkCore.HasinEntityFrameworkModule, Hasin.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 18:08:14,584 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 18:08:14,584 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 18:08:14,584 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 18:08:14,584 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 18:08:14,584 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 18:08:14,585 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 18:08:14,588 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-09-20 18:08:14,662 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-20 18:08:14,662 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-20 18:08:14,662 [1    ] o.Configuration.LanguageManagementConfig - Converted Hasin (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-20 18:08:14,662 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-20 18:08:15,054 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Hasin.EntityFrameworkCore.HasinDbContext, Hasin.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-20 18:08:15,886 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-09-20 18:08:15,941 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-09-20 18:08:15,992 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-09-20 18:08:16,014 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Hasin
+DEBUG 2018-09-20 18:08:16,048 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-09-20 18:08:16,215 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-09-20 18:08:16,261 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2018-09-20 18:08:16,261 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-09-20 18:08:16,270 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.Users.Dto.CreateUserDto
+DEBUG 2018-09-20 18:08:16,270 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.Users.Dto.UserDto
+DEBUG 2018-09-20 18:08:16,271 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-09-20 18:08:16,271 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-09-20 18:08:16,271 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.Roles.Dto.CreateRoleDto
+DEBUG 2018-09-20 18:08:16,271 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.Roles.Dto.PermissionDto
+DEBUG 2018-09-20 18:08:16,271 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.Roles.Dto.RoleDto
+DEBUG 2018-09-20 18:08:16,272 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-09-20 18:08:16,272 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.MultiTenancy.Dto.TenantDto
+INFO  2018-09-20 18:08:23,403 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:21021/  0
+INFO  2018-09-20 18:08:23,403 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2018-09-20 18:08:23,495 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 95.3508ms 200 
+INFO  2018-09-20 18:08:31,309 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action Hasin.Web.Host.Controllers.HomeController.Index (Hasin.Web.Host)
+INFO  2018-09-20 18:08:32,272 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Hasin.Web.Host.Controllers.HomeController.Index (Hasin.Web.Host) - Validation state: Valid
+INFO  2018-09-20 18:08:32,280 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Hasin.Web.Host.Controllers.HomeController.Index (Hasin.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 2.5615ms.
+INFO  2018-09-20 18:08:32,397 [6    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2018-09-20 18:08:32,412 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Hasin.Web.Host.Controllers.HomeController.Index (Hasin.Web.Host) in 1097.5442ms
+INFO  2018-09-20 18:08:32,435 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 9042.5877ms 302 
+INFO  2018-09-20 18:08:32,437 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2018-09-20 18:08:32,477 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 39.9891ms 200 text/html
+INFO  2018-09-20 18:08:32,519 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2018-09-20 18:08:32,520 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2018-09-20 18:08:32,527 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2018-09-20 18:08:32,547 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.css was not modified
+INFO  2018-09-20 18:08:32,550 [7    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-standalone-preset.js was not modified
+INFO  2018-09-20 18:08:32,552 [14   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-bundle.js was not modified
+INFO  2018-09-20 18:08:32,560 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 51.9258ms 304 text/css
+INFO  2018-09-20 18:08:32,571 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 54.7175ms 304 application/javascript
+INFO  2018-09-20 18:08:32,574 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 35.1951ms 304 application/javascript
+INFO  2018-09-20 18:08:32,722 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2018-09-20 18:08:32,853 [7    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-09-20 18:08:33,324 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 599.0988ms 200 application/json;charset=utf-8
+INFO  2018-09-20 18:08:54,942 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Category/CreateOrUpdate application/json-patch+json 44
+INFO  2018-09-20 18:08:54,948 [11   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-09-20 18:08:54,953 [11   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-09-20 18:08:54,958 [11   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-09-20 18:08:55,019 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "CreateOrUpdate", controller = "Category"}. Executing action Hasin.Categorys.CategoryAppService.CreateOrUpdate (Hasin.Application)
+INFO  2018-09-20 18:08:55,020 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-09-20 18:08:55,022 [6    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-09-20 18:08:55,563 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Hasin.Categorys.CategoryAppService.CreateOrUpdate (Hasin.Application) with arguments (Hasin.Categorys.Dtos.CreateOrUpdateCategoryInput) - Validation state: Valid
+INFO  2018-09-20 18:08:55,595 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Hasin.Categorys.CategoryAppService.CreateOrUpdate (Hasin.Application), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 31.0905ms.
+INFO  2018-09-20 18:08:55,713 [11   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-09-20 18:08:55,735 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Hasin.Categorys.CategoryAppService.CreateOrUpdate (Hasin.Application) in 714.2036ms
+INFO  2018-09-20 18:08:55,738 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 796.0456ms 200 application/json; charset=utf-8
+INFO  2018-09-20 18:09:14,285 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Product/CreateOrUpdate application/json-patch+json 64
+INFO  2018-09-20 18:09:14,289 [11   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-09-20 18:09:14,290 [11   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-09-20 18:09:14,292 [11   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-09-20 18:09:14,303 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "CreateOrUpdate", controller = "Product"}. Executing action Hasin.Products.ProductAppService.CreateOrUpdate (Hasin.Application)
+INFO  2018-09-20 18:09:14,305 [11   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-09-20 18:09:14,306 [11   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-09-20 18:09:14,594 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Hasin.Products.ProductAppService.CreateOrUpdate (Hasin.Application) with arguments (Hasin.Products.Dtos.CreateOrUpdateProductInput) - Validation state: Valid
+INFO  2018-09-20 18:09:14,618 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Hasin.Products.ProductAppService.CreateOrUpdate (Hasin.Application), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 19.2944ms.
+INFO  2018-09-20 18:09:14,722 [10   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-09-20 18:09:14,723 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Hasin.Products.ProductAppService.CreateOrUpdate (Hasin.Application) in 418.5537ms
+INFO  2018-09-20 18:09:14,725 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 445.7111ms 200 application/json; charset=utf-8
+INFO  2018-09-20 18:09:20,206 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Product/CreateOrUpdate application/json-patch+json 64
+INFO  2018-09-20 18:09:20,208 [11   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-09-20 18:09:20,213 [11   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-09-20 18:09:20,216 [11   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-09-20 18:09:20,222 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "CreateOrUpdate", controller = "Product"}. Executing action Hasin.Products.ProductAppService.CreateOrUpdate (Hasin.Application)
+INFO  2018-09-20 18:09:20,224 [11   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-09-20 18:09:20,225 [11   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-09-20 18:09:20,254 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Hasin.Products.ProductAppService.CreateOrUpdate (Hasin.Application) with arguments (Hasin.Products.Dtos.CreateOrUpdateProductInput) - Validation state: Valid
+INFO  2018-09-20 18:09:20,258 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Hasin.Products.ProductAppService.CreateOrUpdate (Hasin.Application), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 2.4551ms.
+INFO  2018-09-20 18:09:20,325 [16   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-09-20 18:09:20,326 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Hasin.Products.ProductAppService.CreateOrUpdate (Hasin.Application) in 102.7314ms
+INFO  2018-09-20 18:09:20,329 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 121.6607ms 200 application/json; charset=utf-8
+INFO  2018-09-20 18:10:03,014 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Product/GetPaged?MaxResultCount=10&SkipCount=0  
+INFO  2018-09-20 18:10:03,037 [11   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-09-20 18:10:03,062 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetPaged", controller = "Product"}. Executing action Hasin.Products.ProductAppService.GetPaged (Hasin.Application)
+INFO  2018-09-20 18:10:03,105 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Hasin.Products.ProductAppService.GetPaged (Hasin.Application) with arguments (Hasin.Products.Dtos.GetProductsInput) - Validation state: Valid
+INFO  2018-09-20 18:10:04,091 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Hasin.Products.ProductAppService.GetPaged (Hasin.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 983.7796ms.
+INFO  2018-09-20 18:10:04,134 [16   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-09-20 18:10:04,145 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Hasin.Products.ProductAppService.GetPaged (Hasin.Application) in 1080.9689ms
+INFO  2018-09-20 18:10:04,153 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1138.7127ms 200 application/json; charset=utf-8
