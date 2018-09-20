@@ -1,6 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <localizationDictionary culture="zh-Hans">
   <texts>
+    <text name="CreateNewCategory">创建类别</text>
+    <text name="AreYouSureWantToDelete">你是否确定删除 {0}?</text>
+    <text name="EditCategory" value="编辑类别" />
+    <text name="CreationTime" value="创建时间" />
+    <text name="CategoryName" value="类别名称" />
+    <text name="Categorys" value="类别" />
+    <text name="CategorysManager" value="类别管理" />
     <text name="UserManager" value="用户管理" />
     <text name="Tenants" value="租户" />
     <text name="Users" value="用户" />

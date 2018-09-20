@@ -52,6 +52,12 @@ namespace Hasin.Web.Startup
                 )).AddItem(
                     new MenuItemDefinition(
                         PageNames.About,
+                        L("CategorysManager"),
+                        url: "Categorys",
+                        icon: "business"
+                    )).AddItem(
+                    new MenuItemDefinition(
+                        PageNames.About,
                         L("About"),
                         url: "About",
                         icon: "info"

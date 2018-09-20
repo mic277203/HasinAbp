@@ -16,5 +16,9 @@ namespace Hasin.Categorys.Dtos
         [MaxLength(100)]
         [Required(ErrorMessage = "Name不能为空")]
         public string Name { get; set; }
+        /// <summary>
+        /// 创建时间
+        /// </summary>
+        public DateTime CreationTime { get; set; }
     }
 }

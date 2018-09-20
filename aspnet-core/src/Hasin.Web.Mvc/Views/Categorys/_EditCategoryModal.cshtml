@@ -1,0 +1,21 @@
+﻿@using Abp.MultiTenancy
+@using Hasin.Categorys.Dtos
+@using Hasin.Web.Models.Common.Modals
+@model GetCategoryForEditOutput
+@{
+    Layout = null;
+}
+@Html.Partial("~/Views/Shared/Modals/_ModalHeader.cshtml", new ModalHeaderViewModel(L("EditCategory")))
+<div class="modal-body">
+    <form name="CategoryEditForm" role="form" novalidate class="form-validation">
+        <input type="hidden" name="Id" value="@Model.Category.Id" />
+        <div class="form-group form-float">
+            <div class="form-line">
+                <input type="text" name="Name" class="form-control" value="@Model.Category.Name" required maxlength="100">
+                <label class="form-label">@L("CategoryName")</label>
+            </div>
+        </div>
+    </form>
+</div>
+@Html.Partial("~/Views/Shared/Modals/_ModalFooterWithSaveAndCancel.cshtml")
+<script src="~/view-resources/Views/Categorys/_EditCategoryModal.js" asp-append-version="true"></script>
