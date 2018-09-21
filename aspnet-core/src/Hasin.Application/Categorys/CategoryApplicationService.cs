@@ -60,7 +60,10 @@ namespace Hasin.Categorys
 
             var query = _entityRepository.GetAll();
             // TODO:根据传入的参数添加过滤条件
-
+            if (!string.IsNullOrEmpty(input.Name))
+            {
+                query = query.Where(p => p.Name.Contains(input.Name));
+            }
 
             var count = await query.CountAsync();
 

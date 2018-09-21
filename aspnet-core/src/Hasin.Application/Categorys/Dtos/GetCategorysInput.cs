@@ -7,7 +7,10 @@ namespace Hasin.Categorys.Dtos
 {
     public class GetCategorysInput : PagedSortedAndFilteredInputDto, IShouldNormalize
     {
-
+        /// <summary>
+        /// 姓名
+        /// </summary>
+        public string Name { get; set; }
         /// <summary>
         /// 正常化排序使用
         /// </summary>

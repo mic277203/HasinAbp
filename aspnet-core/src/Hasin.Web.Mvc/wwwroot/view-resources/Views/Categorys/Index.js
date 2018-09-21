@@ -11,14 +11,14 @@
             refreshCategoryList();
         });
 
-        $('.delete-category').click(function () {
+        jQuery(document.body).on('click', '.delete-category', function (e) {
             var categoryId = $(this).attr("data-category-id");
             var categoryName = $(this).attr("data-category-name");
 
             deleteCategory(categoryId, categoryName);
         });
 
-        $('.edit-category').click(function (e) {
+        jQuery(document.body).on('click', '.edit-category', function (e) {
             var categoryId = $(this).attr("data-category-id");
 
             e.preventDefault();
@@ -73,5 +73,54 @@
                 }
             );
         }
+
+        var options = {
+            "ajax": function (data, callback, settings) {
+                abp.services.app.category.getPaged({
+                    "name": $("#txtCategoryName").val(),
+                    "filter": "",
+                    "sorting": "",
+                    "maxResultCount": data.length,
+                    "skipCount": data.start
+                }).done(function (json) {
+                    var data = {
+                        "draw": settings.draw,
+                        "data": json.items,
+                        "recordsTotal": json.totalCount,
+                        "recordsFiltered": json.totalCount
+                    };
+                    callback(data);
+                });
+            }, "columns": [
+                { "data": "name" },
+                { "data": "creationTimeFormat" },
+                {
+                    data: null, render: function (data, type, row) {
+                        var temp = "<a class=\"waves-effect edit-category\" data-category-id=\"" + data.id + "\" data-toggle=\"modal\" data-target=\"#CategoryEditModal\"><i class=\"material-icons\">edit</i></a>&nbsp;&nbsp;<a class=\"waves-effect delete-category\" data-category-id=\"" + data.id + "\" data-category-name=\"" + data.name + "\"><i class=\"material-icons\">delete_sweep</i></a>"
+                        return temp;
+                    }
+                }
+            ]
+        }
+
+        var defaults = {
+            "searching": false,
+            "processing": true,
+            "serverSide": true,
+            "ordering": false,
+            "destroy": true,
+            "bLengthChange": false,
+            "iDisplayLength":8,
+            "language": {
+                url: '//cdn.datatables.net/plug-ins/1.10.16/i18n/Chinese.json'
+            }
+        }
+        var settings = $.extend({}, defaults, options);
+
+        var table = $("#tbMain").DataTable(settings);
+
+        jQuery(document.body).on('click', '#btnQuery', function (e) {
+            table.draw(false);
+        });
     });
 })();

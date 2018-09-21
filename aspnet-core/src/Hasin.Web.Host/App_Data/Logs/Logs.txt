@@ -1022,3 +1022,72 @@ INFO  2018-09-20 18:10:04,091 [10   ] ore.Mvc.Internal.ControllerActionInvoker -
 INFO  2018-09-20 18:10:04,134 [16   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
 INFO  2018-09-20 18:10:04,145 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Hasin.Products.ProductAppService.GetPaged (Hasin.Application) in 1080.9689ms
 INFO  2018-09-20 18:10:04,153 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1138.7127ms 200 application/json; charset=utf-8
+DEBUG 2018-09-21 15:05:25,473 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-09-21 15:05:25,564 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-09-21 15:05:25,584 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Hasin.Web.Host.Startup.HasinWebHostModule, Hasin.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 15:05:25,587 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Hasin.HasinWebCoreModule, Hasin.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 15:05:25,588 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Hasin.HasinApplicationModule, Hasin.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 15:05:25,589 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Hasin.HasinCoreModule, Hasin.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 15:05:25,589 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 15:05:25,590 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 15:05:25,590 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 15:05:25,591 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 15:05:25,591 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Hasin.EntityFrameworkCore.HasinEntityFrameworkModule, Hasin.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 15:05:25,591 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 15:05:25,591 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 15:05:25,592 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 15:05:25,592 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 15:05:25,592 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 15:05:25,592 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 15:05:25,595 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-09-21 15:05:25,669 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-21 15:05:25,670 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-21 15:05:25,670 [1    ] o.Configuration.LanguageManagementConfig - Converted Hasin (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-21 15:05:25,670 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-21 15:05:26,037 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Hasin.EntityFrameworkCore.HasinDbContext, Hasin.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 15:05:26,875 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-09-21 15:05:26,929 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-09-21 15:05:26,974 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-09-21 15:05:26,994 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Hasin
+DEBUG 2018-09-21 15:05:27,031 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-09-21 15:05:27,183 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-09-21 15:05:27,239 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2018-09-21 15:05:27,239 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-09-21 15:05:27,247 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.Users.Dto.CreateUserDto
+DEBUG 2018-09-21 15:05:27,247 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.Users.Dto.UserDto
+DEBUG 2018-09-21 15:05:27,248 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-09-21 15:05:27,248 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-09-21 15:05:27,248 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.Roles.Dto.CreateRoleDto
+DEBUG 2018-09-21 15:05:27,248 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.Roles.Dto.PermissionDto
+DEBUG 2018-09-21 15:05:27,248 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.Roles.Dto.RoleDto
+DEBUG 2018-09-21 15:05:27,249 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-09-21 15:05:27,249 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Hasin.MultiTenancy.Dto.TenantDto
+INFO  2018-09-21 15:05:32,723 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:21021/  0
+INFO  2018-09-21 15:05:32,723 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2018-09-21 15:05:32,874 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 128.9862ms 200 
+INFO  2018-09-21 15:05:41,698 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action Hasin.Web.Host.Controllers.HomeController.Index (Hasin.Web.Host)
+INFO  2018-09-21 15:05:42,687 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Hasin.Web.Host.Controllers.HomeController.Index (Hasin.Web.Host) - Validation state: Valid
+INFO  2018-09-21 15:05:42,693 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Hasin.Web.Host.Controllers.HomeController.Index (Hasin.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 2.1373ms.
+INFO  2018-09-21 15:05:43,232 [11   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2018-09-21 15:05:43,246 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Hasin.Web.Host.Controllers.HomeController.Index (Hasin.Web.Host) in 1542.075ms
+INFO  2018-09-21 15:05:43,268 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2018-09-21 15:05:43,272 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 10558.3277ms 302 
+INFO  2018-09-21 15:05:43,316 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 43.2931ms 200 text/html
+INFO  2018-09-21 15:05:43,366 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2018-09-21 15:05:43,367 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2018-09-21 15:05:43,379 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2018-09-21 15:05:43,381 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2018-09-21 15:05:43,383 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2018-09-21 15:05:43,398 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.css was not modified
+INFO  2018-09-21 15:05:43,400 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger/ui/abp.swagger.js was not modified
+INFO  2018-09-21 15:05:43,403 [7    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-standalone-preset.js was not modified
+INFO  2018-09-21 15:05:43,405 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger/ui/abp.js was not modified
+INFO  2018-09-21 15:05:43,406 [13   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-bundle.js was not modified
+INFO  2018-09-21 15:05:43,411 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 30.3584ms 304 application/javascript
+INFO  2018-09-21 15:05:43,413 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 43.3671ms 304 application/javascript
+INFO  2018-09-21 15:05:43,422 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 46.952ms 304 text/css
+INFO  2018-09-21 15:05:43,427 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 50.8752ms 304 application/javascript
+INFO  2018-09-21 15:05:43,432 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 50.9144ms 304 application/javascript
+INFO  2018-09-21 15:05:43,948 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2018-09-21 15:05:44,063 [10   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-09-21 15:05:44,424 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 463.8041ms 200 application/json;charset=utf-8

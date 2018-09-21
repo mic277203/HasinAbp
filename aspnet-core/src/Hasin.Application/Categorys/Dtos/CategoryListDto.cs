@@ -20,5 +20,13 @@ namespace Hasin.Categorys.Dtos
         /// 创建时间
         /// </summary>
         public DateTime CreationTime { get; set; }
+
+        public string CreationTimeFormat
+        {
+            get
+            {
+                return CreationTime.ToString("yyyy-MM-dd HH:mm:ss");
+            }
+        }
     }
 }

@@ -18,7 +18,7 @@
         <div class="card">
             <div class="header">
                 <h2>
-                    @L("Categorys")
+                    @L("CategorysManager")
                 </h2>
                 <ul class="header-dropdown m-r--5">
                     <li class="dropdown">
@@ -32,35 +32,29 @@
                 </ul>
             </div>
             <div class="body table-responsive">
-                <table class="table">
+                <div class="row clearfix">
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                        <div class="form-group" style="margin-bottom:0px;">
+                            <div class="form-line">
+                                <input type="text" class="form-control" placeholder="类别名称" id="txtCategoryName">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <button type="button" class="btn btn-primary btn-lg m-l-15 waves-effect" id="btnQuery">查询</button>
+                        <button type="button" class="btn btn-primary btn-lg m-l-15 waves-effect" data-toggle="modal" data-target="#CategoryCreateModal">新增</button>
+                    </div>
+                </div>
+                <table id="tbMain" class="table">
                     <thead>
                         <tr>
                             <th>@L("CategoryName")</th>
                             <th>@L("CreationTime")</th>
+                            <th>操作</th>
                         </tr>
                     </thead>
-                    <tbody>
-                        @foreach (var category in Model.Items)
-                        {
-                            <tr>
-                                <td>@category.Name</td>
-                                <td>@category.CreationTime</td>
-                                <td class="dropdown">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                                        <i class="material-icons">menu</i>
-                                    </a>
-                                    <ul class="dropdown-menu pull-right">
-                                        <li><a href="#" class="waves-effect waves-block edit-category" data-category-id="@category.Id" data-toggle="modal" data-target="#CategoryEditModal"><i class="material-icons">edit</i>@L("Edit")</a></li>
-                                        <li><a href="#" class="waves-effect waves-block delete-category" data-category-id="@category.Id" data-category-name="@category.Name"><i class="material-icons">delete_sweep</i>@L("Delete")</a></li>
-                                    </ul>
-                                </td>
-                            </tr>
-                        }
-                    </tbody>
                 </table>
-                <button type="button" class="btn btn-primary btn-circle waves-effect waves-circle waves-float pull-right" data-toggle="modal" data-target="#CategoryCreateModal">
-                    <i class="material-icons">add</i>
-                </button>
+
             </div>
         </div>
     </div>
